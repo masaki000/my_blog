@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-
 <h1>記事の修正</h1>
 
 <%= form_for @post do |f| %>
@@ -22,10 +14,6 @@
  <%= f.text_area :body %>
  </p>
 
-<%= f.submit '更新する' %>
+<%= f.submit '更新する', class:"btn btn-primary "%>
 
 <% end %>
-
-
-</body>
-</html>
