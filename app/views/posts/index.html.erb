@@ -10,7 +10,7 @@
 <% @posts.each do |post| %>
 <p>ID:<%= post.id %></p>
 <p>タイトル:<%= post.title %></p>
-<p>本文:<%= post.body %></p>
+<p>本文:<%= post.body %> <%= link_to '続き', post %></p></p>
 <hr>
 <% end %>
 
